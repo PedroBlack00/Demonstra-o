@@ -23,7 +23,7 @@ img {
   --header-height: 4.5rem;
   --hue: 159;
   /* HSL color mode*/
-  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color: rgb(11, 223, 235);
   --base-color-second: hsl(var(--hue) 65% 88%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
   --title-color: hsl(var(--hue) 41% 10%);
@@ -147,7 +147,7 @@ nav ul li a:hover {
   color: var(--base-color);
 }
 nav ul li a::after {
-  background: var(--base-color);
+  background: rgb(15 129 235);
   content: ' ';
   width: 0;
   height: 2px;
@@ -238,7 +238,7 @@ nav.show div.icon-close {
   content: ' ';
   height: 100%;
   width: 100%;
-  background-color: var(--base-color-second);
+  background-color: var(--base-color);
   position: absolute;
   top: -16.8%;
   left: 16.7%;
